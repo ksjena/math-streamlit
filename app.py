@@ -20,5 +20,7 @@ def user_input_number():
   
   return result
 
+result = user_input_number()
+
 st.subheader('Here is the max of 3 number')
 st.wirte(result)
