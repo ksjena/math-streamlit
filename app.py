@@ -17,10 +17,12 @@ def user_input_number():
     result = number3
   elif number1 == number2 and number2 == number3:
     result = "All number are equal"
+  else:
+    result = "Error: Unable to determine the maximum"
   
   return result
 
 result = user_input_number()
 
 st.subheader('Here is the max of 3 number')
-st.wirte(result)
+st.write(result)
